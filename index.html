@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DevXcelerate | AI & Web Solutions</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--================ NAVBAR ================-->
+    <header class="header">
+        <nav class="navbar container" aria-label="Primary">
+            <!-- Logo -->
+            <a href="#home" class="logo" aria-label="DevXcelerate Studios home">
+                <span>DX</span>
+                DevXcelerate Studios
+            </a>
+
+            <!-- Nav Links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#technology">Technologies</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- CTA -->
+            <a href="#contact" class="nav-btn">
+                Start Project
+                <i class="ri-arrow-right-line"></i>
+            </a>
+
+            <!-- Mobile Menu -->
+            <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-controls="navLinks" aria-expanded="false" type="button">
+                <i class="ri-menu-3-line"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!--================ HERO SECTION ================-->
+    <section class="hero section" id="home">
+        <div class="container hero-container">
+            <div class="hero-content" data-reveal>
+                <div class="eyebrow">
+                    <span class="dot"></span>
+                    Pakistan-based • Global-ready engineering
+                </div>
+
+                <h1>
+                    We Build <span>Web, Mobile & AI</span> Solutions That Scale Globally
+                </h1>
+
+                <p>
+                    DevXcelerate designs premium SaaS, modern web experiences, mobile apps, and AI systems—built with speed, security,
+                    and measurable outcomes.
+                </p>
+
+                <div class="hero-btns">
+                    <a href="#contact" class="btn primary">
+                        Get Started
+                    </a>
+                    <a href="#work" class="btn secondary">
+                        View Portfolio
+                    </a>
+                </div>
+
+                <div class="hero-stats" role="list">
+                    <div class="stat" role="listitem" data-countup="projects"> 
+                        <h3><span class="count">50</span>+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat" role="listitem" data-countup="clients">
+                        <h3><span class="count">30</span>+</h3>
+                        <p>Clients</p>
+                    </div>
+                    <div class="stat" role="listitem" data-countup="experience">
+                        <h3><span class="count">7</span>+ yrs</h3>
+                        <p>Experience</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image" data-reveal>
+                <div class="glow"></div>
+
+                <!-- Mockups (local-safe SVG) -->
+                <div class="mockup-wrap" aria-hidden="true">
+                    <img class="mockup-desktop" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='820'%20height='540'%20viewBox='0%200%20820%20540'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%238b5cf6'/%3E%3Cstop%20offset='1'%20stop-color='%23050a22'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20x='20'%20y='20'%20width='780'%20height='500'%20rx='28'%20fill='url(%23g)'%20opacity='0.18'/%3E%3Crect%20x='48'%20y='60'%20width='724'%20height='380'%20rx='18'%20fill='rgba(255,255,255,0.06)'%20stroke='rgba(139,92,246,0.35)'/%3E%3Crect%20x='70'%20y='98'%20width='160'%20height='14'%20rx='7'%20fill='%238b5cf6'%20opacity='0.55'/%3E%3Crect%20x='70'%20y='125'%20width='240'%20height='10'%20rx='5'%20fill='rgba(255,255,255,0.35)'/%3E%3Crect%20x='70'%20y='150'%20width='300'%20height='10'%20rx='5'%20fill='rgba(255,255,255,0.25)'/%3E%3Crect%20x='70'%20y='220'%20width='620'%20height='150'%20rx='16'%20fill='rgba(255,255,255,0.05)'%20stroke='rgba(255,255,255,0.10)'/%3E%3Ccircle%20cx='685'%20cy='105'%20r='18'%20fill='%238b5cf6'%20opacity='0.45'/%3E%3Ccircle%20cx='722'%20cy='105'%20r='10'%20fill='rgba(255,255,255,0.35)'/%3E%3C/svg%3E" alt="Laptop mockup">
+
+                    <img class="mockup-mobile" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='340'%20height='520'%20viewBox='0%200%20340%20520'%3E%3Crect%20x='50'%20y='20'%20width='240'%20height='480'%20rx='34'%20fill='rgba(255,255,255,0.06)'%20stroke='rgba(139,92,246,0.35)'/%3E%3Crect%20x='95'%20y='56'%20width='150'%20height='18'%20rx='9'%20fill='%238b5cf6'%20opacity='0.5'/%3E%3Crect%20x='82'%20y='120'%20width='176'%20height='70'%20rx='18'%20fill='rgba(255,255,255,0.05)'/%3E%3Crect%20x='82'%20y='210'%20width='176'%20height='14'%20rx='7'%20fill='rgba(255,255,255,0.25)'/%3E%3Crect%20x='82'%20y='240'%20width='140'%20height='14'%20rx='7'%20fill='rgba(255,255,255,0.18)'/%3E%3Crect%20x='82'%20y='300'%20width='176'%20height='150'%20rx='20'%20fill='rgba(139,92,246,0.10)'%20stroke='rgba(255,255,255,0.12)'/%3E%3C/svg%3E" alt="Mobile mockup">
+                </div>
+
+                <!-- Floating premium cards -->
+                <div class="floating-grid" aria-hidden="true">
+                    <div class="floating-card">
+                        <i class="ri-brain-line"></i>
+                        <span>AI</span>
+                    </div>
+                    <div class="floating-card">
+                        <i class="ri-speed-line"></i>
+                        <span>Speed</span>
+                    </div>
+                    <div class="floating-card">
+                        <i class="ri-shield-check-line"></i>
+                        <span>Security</span>
+                    </div>
+                    <div class="floating-card">
+                        <i class="ri-sparkling-2-line"></i>
+                        <span>Innovation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ ABOUT SECTION ================-->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <h2>Built for ambitious teams</h2>
+                <p>We combine engineering depth with product thinking to ship modern solutions that feel premium and perform under pressure.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card glass" data-reveal>
+                    <h3 class="card-title">Mission</h3>
+                    <p>Deliver scalable web, mobile, and AI solutions that help businesses grow—on time, with measurable ROI.</p>
+                </div>
+
+                <div class="about-card glass" data-reveal>
+                    <h3 class="card-title">Vision</h3>
+                    <p>Build a global-standard studio from Pakistan—trusted by teams worldwide for speed, security, and craft.</p>
+                </div>
+
+                <div class="why-grid">
+                    <div class="why-item glass" data-reveal>
+                        <i class="ri-flashlight-line"></i>
+                        <h4>Neon-fast delivery</h4>
+                        <p>Agile sprints + clean milestones for steady progress.</p>
+                    </div>
+                    <div class="why-item glass" data-reveal>
+                        <i class="ri-lock-2-line"></i>
+                        <h4>Security by default</h4>
+                        <p>Hardened architecture, safe patterns, and audits.</p>
+                    </div>
+                    <div class="why-item glass" data-reveal>
+                        <i class="ri-layout-4-line"></i>
+                        <h4>Premium UI/UX</h4>
+                        <p>Glass, motion, and usability designed for conversion.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ SERVICES SECTION ================-->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <h2>Services that ship</h2>
+                <p>From product discovery to deployment—everything crafted for reliability and scale.</p>
+            </div>
+
+            <div class="grid services-grid">
+                <article class="service-card glass" data-reveal>
+                    <div class="icon"> <i class="ri-code-s-slash-line"></i> </div>
+                    <h3>Web Development</h3>
+                    <p>High-performance websites & SaaS with modern architectures and clean UX.</p>
+                </article>
+
+                <article class="service-card glass" data-reveal>
+                    <div class="icon"> <i class="ri-smartphone-line"></i> </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Flutter-first experiences with smooth interactions and strong backend integration.</p>
+                </article>
+
+                <article class="service-card glass" data-reveal>
+                    <div class="icon"> <i class="ri-palette-line"></i> </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Premium interfaces using glassmorphism, motion, and conversion-ready layouts.</p>
+                </article>
+
+                <article class="service-card glass" data-reveal>
+                    <div class="icon"> <i class="ri-database-2-line"></i> </div>
+                    <h3>Database Solutions</h3>
+                    <p>MongoDB/MySQL schemas that keep data fast, consistent, and secure.</p>
+                </article>
+
+                <article class="service-card glass" data-reveal>
+                    <div class="icon"> <i class="ri-rocket-line"></i> </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Technical SEO + content structure for measurable visibility and traffic.</p>
+                </article>
+
+                <article class="service-card glass" data-reveal>
+                    <div class="icon"> <i class="ri-broadcast-line"></i> </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Growth strategy, landing pages, and campaigns tuned for performance.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--================ WORK SECTION ================-->
+    <section class="section work" id="work">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <h2>Featured Work</h2>
+                <p>Selected projects built with speed, design craft, and production-grade engineering.</p>
+            </div>
+
+            <div class="grid work-grid">
+                <!-- Project Card 1 -->
+                <a class="project-card glass" data-reveal href="https://toptierproperty-sohb.vercel.app/" target="_blank" rel="noopener">
+                     <img 
+        src="images/toptier.png" 
+        alt="Top Tier Property Project Preview"
+    />
+                    <div class="project-body">
+                        <div class="project-top">
+                            <h3>Top Tier Property Website</h3>
+                            <span class="pill">Web</span>
+                        </div>
+                        <p>Premium SaaS Website of a famous property using latest tools.</p>
+                        <div class="project-tags">
+                            <span class="tag">Web</span>
+                            <span class="tag">UI</span>
+                            <span class="tag">AI</span>
+                        </div>
+                        <div class="project-cta">
+                            <span class="live-btn">LIVE <i class="ri-external-link-line"></i></span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project Card 2 -->
+                <a class="project-card glass" data-reveal href="https://aurum-comprehensive-web-project.vercel.app/" target="_blank" rel="noopener">
+                    <img 
+        src="images/aurum.png" 
+        alt="Aurum"
+    />
+                    <div class="project-body">
+                        <div class="project-top">
+                            <h3>Aurum E-Commerce Website</h3>
+                            <span class="pill">Web</span>
+                        </div>
+                        <p>Modern e-commerce platform featuring secure payments, responsive design, product management, and a seamless shopping experience.</p>
+                        <div class="project-tags">
+                            <span class="tag">Web</span>
+                            <span class="tag">UI</span>
+                            <span class="tag">Security</span>
+                        </div>
+                        <div class="project-cta">
+                            <span class="live-btn">LIVE <i class="ri-external-link-line"></i></span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project Card 3 -->
+                <a class="project-card glass" data-reveal href="https://cavient.vercel.app/" target="_blank" rel="noopener">
+                    
+                    <img 
+        src="images/cavient1.png" 
+        alt="Cavient"
+    />
+                    <div class="project-body">
+                        <div class="project-top">
+                            <h3>Cavient HealthCare</h3>
+                            <span class="pill">Web</span>
+                        </div>
+                        <p>Modern healthcare website featuring appointment booking, medical services, responsive design, and an intuitive patient experience.</p>
+                        <div class="project-tags">
+                            <span class="tag">Web</span>
+                            <span class="tag">UI</span>
+                            <span class="tag">Speed</span>
+                        </div>
+                        <div class="project-cta">
+                            <span class="live-btn">LIVE <i class="ri-external-link-line"></i></span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project Card 4 -->
+                <a class="project-card glass" data-reveal href="https://cor-health.vercel.app/" target="_blank" rel="noopener">
+
+                    <img 
+        src="images/emyhealth.png" 
+        alt="Cavient"
+    />
+                    <div class="project-body">
+                        <div class="project-top">
+                            <h3>EMY Healthcare</h3>
+                            <span class="pill">Web</span>
+                        </div>
+                        <p>Professional healthcare website designed to provide accessible medical information, appointment scheduling, and an intuitive user experience</p>
+                        <div class="project-tags">
+                            <span class="tag">Web</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Security</span>
+                        </div>
+                        <div class="project-cta">
+                            <span class="live-btn">LIVE <i class="ri-external-link-line"></i></span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project Card 5 -->
+                <a class="project-card glass" data-reveal href="https://bootstap-construction-website.vercel.app/" target="_blank" rel="noopener">
+                    
+                    <img 
+        src="images/saec.png" 
+        alt="Cavient"
+    />
+                    <div class="project-body">
+                        <div class="project-top">
+                            <h3>Comprehensive Company Website</h3>
+                            <span class="pill">Web</span>
+                        </div>
+                        <p>Comprehensive website built for top construction company of Pakistan</p>
+                        <div class="project-tags">
+                            <span class="tag">Web</span>
+                            <span class="tag">UI</span>
+                            <span class="tag">AWS</span>
+                        </div>
+                        <div class="project-cta">
+                            <span class="live-btn">LIVE <i class="ri-external-link-line"></i></span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project Card 6 -->
+                <a class="project-card glass" data-reveal href="https://fri-kings-fast-food-web.vercel.app/" target="_blank" rel="noopener">
+                    
+                    <img 
+        src="images/friking.png" 
+        alt="Cavient"
+    />
+                    <div class="project-body">
+                        <div class="project-top">
+                            <h3>Fri-king Fast food Website</h3>
+                            <span class="pill">Web</span>
+                        </div>
+                        <p>Built high level fast food website for new business.</p>
+                        <div class="project-tags">
+                            <span class="tag">Web</span>
+                            <span class="tag">SEO</span>
+                            <span class="tag">UI</span>
+                        </div>
+                        <div class="project-cta">
+                            <span class="live-btn">LIVE <i class="ri-external-link-line"></i></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--================ TECHNOLOGIES SECTION ================-->
+    <section class="section technologies" id="technology">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <h2>Technologies we build with</h2>
+                <p>Modern stacks for reliable performance—from prototypes to production.</p>
+            </div>
+
+            <div class="tech-grid" data-reveal>
+                <div class="tech-item"><span class="tech-icon">⚛️</span><span>React</span></div>
+                <div class="tech-item"><span class="tech-icon">🟩</span><span>Node.js</span></div>
+                <div class="tech-item"><span class="tech-icon">🍃</span><span>MongoDB</span></div>
+                <div class="tech-item"><span class="tech-icon">🕹️</span><span>Flutter</span></div>
+                <div class="tech-item"><span class="tech-icon">🔥</span><span>Firebase</span></div>
+                <div class="tech-item"><span class="tech-icon">🐍</span><span>Python</span></div>
+                <div class="tech-item"><span class="tech-icon">🐬</span><span>MySQL</span></div>
+                <div class="tech-item"><span class="tech-icon">☁️</span><span>AWS</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ TEAM SECTION ================-->
+    <section class="section team" id="team">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <h2>Founders</h2>
+                <p>Small team. Senior craft. Premium outcomes.</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="founder-card glass" data-reveal>
+                    <div class="founder-media">
+                        <img
+    src="images/haseeb.jpeg"
+    alt="Muhammad Haseeb"
+/>
+                        <div class="founder-badge">Full Stack</div>
+                    </div>
+                    <h3>Muhammad Haseeb</h3>
+                    <p class="role">Full Stack Developer</p>
+                    <p class="bio">Builds scalable web systems and AI-ready architectures with performance and security at the core.</p>
+
+                    <div class="social-row" aria-label="Muhammad Haseeb social links">
+                        <a class="social-btn" href="https://github.com/021haseeb" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a class="social-btn" href="https://www.linkedin.com/in/muhammad-haseeb-11185b33a" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a class="social-btn" href="https://wa.me/923060451976" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="ri-whatsapp-fill"></i>
+</a>
+                    </div>
+                </div>
+
+                <div class="founder-card glass" data-reveal>
+                    <div class="founder-media">
+                                              <img
+    src="images/abdullah.jpeg"
+    alt="Abdullah Azmat"
+/>
+                        <div class="founder-badge">Design & Growth</div>
+                    </div>
+                    <h3>Abdullah Azmat</h3>
+                    <p class="role">Agentic AI Engineer & Marketing Expert</p>
+                    <p class="bio">Designs conversion-ready product experiences and growth campaigns with a premium SaaS aesthetic.</p>
+
+                    <div class="social-row" aria-label="Abdullah Azmat social links">
+                        <a class="social-btn" href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a class="social-btn" href="https://https://www.linkedin.com/in/abdullah-azmat-010486247" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a class="social-btn" href="https://wa.me/923060451976" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="ri-whatsapp-fill"></i>
+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ CONTACT SECTION ================-->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-wrap">
+                <div class="contact-left" data-reveal>
+                    <div class="section-head">
+                        <h2>Start a project</h2>
+                        <p>Tell us what you’re building. We’ll respond with next steps and a fast proposal.</p>
+                    </div>
+
+                    <div class="contact-info glass">
+                        <div class="info-item">
+                            <i class="ri-map-pin-line"></i>
+                            <div>
+                                <h4>Based in Pakistan</h4>
+                                <p>Lahore • Islamabad • Remote</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ri-mail-line"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:devxcelerate688@gmail.com">devxcelerate688@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ri-whatsapp-line"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <a class="social-btn" href="https://wa.me/923060451976" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="ri-whatsapp-fill"></i>
+    
+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form glass" id="contactForm" data-reveal novalidate>
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" autocomplete="name" required placeholder="Your full name" />
+                        <span class="error" data-error-for="name" aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@company.com" />
+                        <span class="error" data-error-for="email" aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Describe your project, timeline, and goals"></textarea>
+                        <span class="error" data-error-for="message" aria-live="polite"></span>
+                    </div>
+
+                    <button class="btn primary full" type="submit">
+                        Send Message
+                        <i class="ri-send-plane-2-line"></i>
+                    </button>
+
+                    <p class="form-note">By sending, you agree to be contacted about your inquiry. No spam—ever.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--================ FOOTER ================-->
+    <footer class="footer">
+        <div class="container footer-wrap">
+            <div class="footer-brand">
+                <div class="logo small">
+                    <span>DX</span>
+                    DevXcelerate Studios
+                </div>
+                <p>Ultra premium engineering for web, mobile & AI systems.</p>
+                <div class="footer-social">
+                    <a class="social-icon" href="https://github.com/021haseeb" target="_blank" rel="noopener" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+                    <a class="social-icon" href="https://www.linkedin.com/in/muhammad-haseeb-11185b33a" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                    <a class="social-icon" href="https://wa.me/923060451976" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ri-whatsapp-fill"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-cols">
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="#services">Services</a>
+                    <a href="#work">Work</a>
+                    <a href="#team">Team</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Technologies</h4>
+                    <a href="#technology">React</a>
+                    <a href="#technology">Node.js</a>
+                    <a href="#technology">MongoDB</a>
+                    <a href="#technology">AWS</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><a href="mailto:devxcelerate688@gmail.com">devxcelerate688@gmail.com</a></p>
+                    <p><a href="https://wa.me/923060451976" target="_blank" rel="noopener">WhatsApp chat</a></p>
+                    <p>Pakistan • Global delivery</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <span>© <span id="year"></span> DevXcelerate Studios. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- EmailJS (for contact form sending) -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
